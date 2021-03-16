@@ -1,6 +1,5 @@
-function outputNumbers() {
-let number = 100
- for (let i=0; i <= number; i++) {
+function outputNumbers(num) {
+ for (let i=0; i <= num; i++) {
   if (i === 5) {
       console.log('пять')
    } else if (i === 13) {
